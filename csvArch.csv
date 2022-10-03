@@ -1,0 +1,26 @@
+number,name
+ARCH01,Network Firewall
+ARCH02,Multifactor Authentication
+ARCH03,Privileged Access Management
+ARCH04,Netflow/Flow Analytics
+ARCH05,Malware Detection
+ARCH06,Identity and Access Management
+ARCH07,Data Discovery and Loss Prevention
+ARCH08,Host-based Firewall
+ARCH09,Network-based Microsegmentation
+ARCH10,Log Aggregation/SIEM
+ARCH11,Vulnerabilty Management
+ARCH12,Endpoint Detection and Response
+ARCH13,Network Detection and Response
+ARCH14,Zero-Trust Components
+ARCH15,Directory Defense
+ARCH16,CMDB
+ARCH17,Data Backup and Recovery Management
+ARCH18,Microsoft Fabric
+ARCH19,Secure Email Gateway
+ARCH20,Cybersecurity Ticketing System and Case Management
+ARCH21,Vendor Access Management
+ARCH22,Hypervisor-based Microsegmentation
+ARCH23,Governance Risk and Compliance
+ARCH24,Adversary Emulation
+ARCH25,DNS Firewall
