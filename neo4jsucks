@@ -1,0 +1,21 @@
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cbulsara/framework/main/csvECR.csv' as row
+MERGE (o:ecr {number:row.Number})
+SET o.description=row.Description
+SET o.likelihood=toInteger(row.Likelihood)
+SET o.impact=toInteger(row.Impact)
+SET o.sequence=toInteger(row.Sequence)
+SET o.score=toFloat(row.Score)
+SET o.normalizedScore=toFloat(row.normalizedScore)
+return o
+
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cbulsara/framework/main/csvOKR.csv' as row
+MERGE (o:okr {number:row.Number})
+SET o.mappedECR=row.`Mapped ECR`
+SET o.description=row.Description
+return o
+
+match(e:scrippsControl)
+unwind split(e.mappedOKR, ";") as splitOKR
+merge(o:okr {number:splitOKR})
+merge (e)-[r:MAPPED_OKR]->(o)
+return r
