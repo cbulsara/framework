@@ -1,0 +1,23 @@
+﻿number,name,totalScore,tier,maturityLevel,mappedInitiative,mappedOKR,mappedReferenceArchitecture
+CIS01,Inventory and Control of Enterprise Assets,230,0,,Foundation,OKR01,ARCH16
+CIS02,Inventory and Control of Software Assets,230,0,,Foundation,OKR03;OKR21,ARCH16
+CIS08,Audit Log Management,225.5696203,0,,Defense,OKR08,ARCH10
+CIS17,Incident Response Management,210.6329114,0,,Defense,OKR17,ARCH10;ARCH12;ARCH13
+CIS07,Continuous Vulnerability Management,188.8607595,0,,Attack Surface Reduction,OKR07,ARCH10;ARCH11
+RMP01,Separate and Manage Privileged Accounts,188.8607595,0,,Secure Identity,OKR19,ARCH02;ARCH03;ARCH15
+RMP03,Admin Workstations Initial Deployment,181.3924051,0,,Secure Identity,OKR19,N/A
+CIS15,Service Provider Management,179.6202532,0,,Attack Surface Reduction,OKR15,ARCH16
+CIS03,Data Protection,148.9873418,1,,Attack Surface Reduction,OKR03,ARCH07
+CIS13,Network Monitoring and Defense,128.6075949,1,,Defense,OKR13,ARCH01;ARCH02;ARCH04;ARCH08;ARCH09;ARCH10;ARCH12;ARCH13;ARCH14;ARCH15
+CIS12,Network Infrastructure Management,110.2531646,1,,Foundation,OKR12,ARCH01;ARCH02;ARCH03;ARCH04;ARCH10;ARCH14;ARCH15;ARCH16
+RMP04,Azure Application Defense,108.8607595,1,,Defense,OKR21,ARCH16
+CIS10,Malware Defenses,101.7721519,1,,Attack Surface Reduction,OKR10,ARCH04;ARCH10;ARCH12;ARCH13
+CIS11,Data Recovery,100,1,,Foundation,OKR11,ARCH16;ARCH17
+CIS18,Penetration Testing,95.3164557,1,,Defense,OKR18,N/A
+CIS06,Access Control Management,90.88607595,1,,Secure Identity,OKR06,ARCH02;ARCH03;ARCH06;ARCH14
+RMP02,Improve Credential Management Experience,88.86075949,2,,Secure Identity,OKR20,ARCH02;ARCH03;ARCH19
+CIS05,Account Management,82.02531646,2,,Secure Identity,OKR05,ARCH03;ARCH06;ARCH14
+CIS16,Application Software Security,66.70886076,2,,Attack Surface Reduction,OKR16,ARCH11;ARCH18
+CIS04,Secure Configuration of Enterprise Assets and Software,57.21518987,2,,Foundation,OKR04,ARCH19
+CIS14,Security Awareness and Skills Training,30.63291139,2,,Attack Surface Reduction,OKR14,N/A
+CIS09,Email and Web Browser Protections,28.60759494,2,,Attack Surface Reduction,OKR09,N/A

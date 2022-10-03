@@ -1,0 +1,16 @@
+Number,Description,Likelihood,Impact,Sequence,Score,normalizedScore,
+R01,"Adversary performs successful reconaisance against publicly-accessible assets, gaining intel that can be meaningfully weaponized.",90,25,1,0.225,3.04,0.5
+R02,Adversary successfully gains a foothold in the environment that can be meaningfully weaponized via social engineering.,75,50,1,0.375,6.84,0.105
+R03,Adversary successfully gains a foothold in the environment that can be meaningfully weaponized via exploitation of a perimeter vulnerability.,50,80,1,0.4,7.47,
+R04,Adversary successfully gains a foothold via exploitation of an interior vulnerability.,40,80,1,0.32,5.44,
+R05,Adversary successfully gains a foothold that can be meaningfully weaponized via a perimeter deviation from a secure configuration baseline.,40,80,1,0.32,5.44,
+R06,Adversary successfully gains a foothold via exploitation of an interior deviation from a secure configuration baseline.,30,80,1,0.24,3.42,
+R07,Adversary gains a foothold via a successful authentication attack. ,80,40,1,0.32,5.44,
+R08,Adversary gains a foothold in the environment that can be meaningfully weaponized via supply chain and/or roaming device.,50,80,1,0.4,7.47,
+R09,Insider gains unauthorized access to information via least privilege violation.,15,70,1,0.105,0.00,
+R10,Adversary sucessfully establishes C2.,40,80,2,0.32,10.89,
+R11,Adversary successfully gains MDCIA access to IT capabilities as they relate to patient care.,35,100,5,0.35,31.01,
+R12,Adversary successfully gains MDCIA  access to Regulated or Confidential data.,40,80,5,0.32,27.22,
+R13,Intentional exfiltration of data.,40,80,2,0.32,10.89,
+R14,Unintentional exfiltration of data.,40,80,2,0.32,10.89,
+R15,Adversary disrupts delivery of recovery and/or continuity objectives.,50,100,10,0.5,100.00,
