@@ -19,3 +19,14 @@ unwind split(e.mappedOKR, ";") as splitOKR
 merge(o:okr {number:splitOKR})
 merge (e)-[r:MAPPED_OKR]->(o)
 return r
+
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cbulsara/framework/main/planProject.csv' as row
+MERGE (o:planProject {number:row.number})
+SET o.name=row.name
+SET o.objective=row.objective
+SET o.mappedControl=row.mappedControl
+SET o.mappedSubcontrol=row.mappedSubcontrol
+SET o.mappedService=row.mappedService
+SET o.mappedBuildTransition=row.mappedBuildTransition
+SET o.mappedArchitectures=row.mappedArchitectures
+return o
