@@ -1,0 +1,20 @@
+﻿number,description,percentComplete
+MIL001,"Use all data sources at our disposal (e.g., CyberArk attack path modeling, CrowdStrike IDP) to develop a scope of ""privileged"" roles. This should include DA accounts, but also DA-equivalent and DA-adjacent accounts.",0
+MIL002,Generate an interim deliverable that maps each in-scope role to thenumber of users mapped to that role.,0
+MIL003,"Decide which roles to retain and control with Cyberark vs. roles to revise, consolidate, or delete.",0
+MIL004,"Finalized deliverable: inventory of roles to be controlled with PAM, mapped to the PAM tool to be used (e.g., CyberArk, LAPS)",0
+MIL005,"Finalized deliverable: procedure to maintain the inventory of roles to be controlled with PAM, mapped to the PAM tool to be used.",0
+MIL006,"Finalized deliverable: updated standard documenting role criteria, with a pointer to the procedure for maintaining the inventory of PAM-scoped roles.",0
+MIL007,Publish and RACI the PAM-scoped role procedure.,0
+MIL008,"Turn on AD Insight to gain...insight...into password hygiene, privileged users, and AD attack paths.",100
+MIL009,Implement a go-forward workflow to force password resets on users who choose pwned passwords. Automate if possible.,0
+MIL010,One-time reset of passwords for all privileged users who have pwned passwords.,0
+MIL011,One-time reset of passwords for all non-privileged users who have pwned passwords.,0
+MIL012,Develop a runbook activity to manage to password health KPI.,0
+MIL013,Develop a runbook activity to manage to Domain Security Risk Score KPI.,0
+MIL014,Develop a runbook activity to reconfirm group memberships for all privileged users.,0
+MIL015,Develop a password policy that increases our password policy score from Medium to High.,0
+MIL016,"Address all privileged accounts with passwords that never expire - vault, rotate, expire, increase length to 30+, etc",0
+MIL017,Turn on IDAS connector to Azure.,0
+MIL018,Turn on Traffic Analysis.,0
+MIL019,"Spin off a runbook activity for InfoSec Analysts to propose conditional access policies, execution to be governed by RACI.",0

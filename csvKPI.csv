@@ -1,0 +1,4 @@
+﻿number,description,calculation,frequency,target,current,mappedDatasources
+KPI001,Percent PAM-scoped roles that are controlled with at least one PAM tool.,NA,NA,NA,NA,NA
+KPI002,"Password Health - password is not pwned, conforms to length complexity expiration lockout minimums.",NA,NA,NA,NA,NA
+KPI003,Domain Security Risk Score - use the out of the box Domain Security Risk Score from CrowdStrike. ,NA,NA,NA,NA,NA
