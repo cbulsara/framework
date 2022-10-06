@@ -43,3 +43,20 @@ SET o.mappedArchitectures=row.mappedArchitectures
 SET o.mappedMilestones=row.mappedMilestones
 SET o.mappedKPI=row.mappedKPIs
 return o
+
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cbulsara/framework/main/csvMilestones.csv' as row
+MATCH (o:milestone {number:row.number})
+SET o.description=row.description
+SET o.percentComplete=row.percentComplete
+return o
+
+
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cbulsara/framework/main/csvKPI.csv' as row
+MATCH (o:kpi {number:row.number})
+SET o.description=row.description
+SET o.calculation=row.calculation
+SET o.frequency=row.frequency
+SET o.target=row.target
+SET o.current=row.current
+SET o.mappedDatasources=row.mappedDatasources
+return o
