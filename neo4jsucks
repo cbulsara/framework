@@ -30,3 +30,16 @@ SET o.mappedService=row.mappedService
 SET o.mappedBuildTransition=row.mappedBuildTransition
 SET o.mappedArchitectures=row.mappedArchitectures
 return o
+
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cbulsara/framework/main/csvBuildProjects.csv' as row
+MERGE (o:buildProject {number:row.number})
+SET o.name=row.name
+SET o.objective=row.objective
+SET o.mappedControl=row.mappedControl
+SET o.mappedSubcontrol=row.mappedSubcontrol
+SET o.mappedService=row.mappedService
+SET o.mappedRunTransition=row.mappedRunTransition
+SET o.mappedArchitectures=row.mappedArchitectures
+SET o.mappedMilestones=row.mappedMilestones
+SET o.mappedKPI=row.mappedKPIs
+return o
